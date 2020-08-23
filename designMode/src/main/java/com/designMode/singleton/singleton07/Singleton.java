@@ -10,10 +10,11 @@ package com.designMode.singleton.singleton07;
  * 3.提供一个公有静态方法,获取实例对象
  * <p>
  * 优点:
- *
+ * 1.类的静态属性只会在第一次加载类的时候初始化,jvm保证了线程安全
+ * 2.懒加载效果
  * <p>
  * 结论:
- * 1.
+ * 1.实际开发中,推荐使用
  */
 public class Singleton {
 
